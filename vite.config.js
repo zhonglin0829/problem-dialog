@@ -37,7 +37,7 @@ export default defineConfig({
     host:true,
     hmr:true,
     resolve:{
-      extensions:['.js', '.ts', '.jsx', '.tsx', '.json', '.vue'],//忽略导入文件的后缀名
+      extensions:['.js', '.ts', '.jsx', '.tsx', '.json', '.vue','.mjs'],//忽略导入文件的后缀名
     }
   }
 });
